@@ -67,23 +67,7 @@ def count_sentences(text):
     return count
 
 def output_results(score):
-    """
-    This function takes a Flesch-kincaid score and prints the corresponding reading level.
-    """
-    if score >= 90:
-        print('Reading level of 5th Grade')
-    elif score >= 80:
-        print('Reading level of 6th Grade')
-    elif score >= 70:
-        print('Reading level of 7th Grade')
-    elif score >= 60:
-        print('Reading level of 8-9th Grade')
-    elif score >= 50:
-        print('Reading level of 10-12th Grade')
-    elif score >= 30:
-        print('Reading level of College Grade')
-    else:
-        print('Reading level of College Graduate')    
+    print('The index value of the text is', score) 
 
 def compute_readability(text):
     """
